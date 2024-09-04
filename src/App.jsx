@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className='fixed top-0 z-[2] h-screen wscreen'></div>
       <div className='container mx-auto px-8'>
     <Navbar></Navbar>
+    <Hero></Hero>
     
     </div>
     </div>
