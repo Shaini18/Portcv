@@ -1,7 +1,7 @@
 import React from "react";
-import { FaIconName } from 'react-icons/fa';
+// import { FaIconName } from 'react-icons/fa';
 
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram} from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 
@@ -15,7 +15,7 @@ const Navbar = () => {
         className="m-8 flex items-center justify-center gap-4 text-2xl
          "
       >
-        <FaInstagram  />
+        <FaInstagram />
         <FaLinkedin />
         <FaGithub />
       </div>
