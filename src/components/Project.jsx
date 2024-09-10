@@ -19,10 +19,10 @@ const Project = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
       >
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 flex flex-wrap md:gap-6 lg:justify-center md:mb-10">
             <div className="w-full lg:w-1/4">
               <motion.img
-                whileInView={{ opacity: 1, x: 100 }}
+                whileInView={{ opacity: 1, x: 10 }}
                 initial={{ opacity: 0, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
                 src={project.image}
@@ -40,13 +40,22 @@ const Project = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-350">{project.description}</p>
+              
+              <button className="mb-4 text-neutral-350 text-gray-50 hover:text-gray-500">
+              <a href={project.link}>
+                website link
+                </a>
+              </button>
+              <br/>
               {project.technologies.map((tech, index) => (
-                <span
+                
+                <span 
                   key={index}
-                  className="mr-2 rounded bg-neutral-800 px-2 py-1 text-sm font-medium"
+                  className="mr-2 rounded bg-neutral-800 px-2 py-1  text-sm font-medium"
                 >
                   {tech}
                 </span>
+                
               ))}
             </motion.div>
           </div>

@@ -3,74 +3,66 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 YEARS of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a final-year engineering student at NIT Arunachal Pradesh in the ECE department with a passion for both web development and software development.I have developed strong front-end skills using HTML, CSS, JavaScript, and React, as well as back-end expertise in Node.js, SQL, and MySQL. Alongside my web development pursuits, I am also interested in robotics and signals, aiming to apply my technical knowledge to create innovative solutions and impactful projects.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `To support myself, I have taken on several freelancing projects, where I quickly adapt to new challenges and deliver quality work. A quick learner by nature, I thrive in dynamic environments. Alongside my technical pursuits, I’ve held leadership positions in college clubs and served as a student body-elected representative, showcasing my ability to balance multiple responsibilities. I'm also interested in finance and always look for innovative solutions to complex problems..`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    Duration: "Dec 2023- Feb 2024",
+    role: "Full Stack Developer Intern",
+    company: "GETMAX SOLUTIONS",
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs . Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["CSS", "Javascript", "React.js", "Next.js"],
+    link : ["https://drive.google.com/file/d/1tvNQhcrY9T7yxQSqU88lOB9IU3lJ12Ea/view?usp=drivesdk"]
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    Duration: "Feb 2023-June2023",
+    role: "Research Intern",
+    company: "NIT Arunachal Pradesh",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    link :["https://drive.google.com/file/d/1twb2NmRGJaC_3yXJPT-PWjFcVCJ71p2G/view?usp=drivesdk "],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+ 
+
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "HealthCare RCM",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A website for Getmax Solutions company which help users to clain medical health insurance and manage billings .",
+    technologies: ["HTML", "CSS", "React", "Node.js"],
+    link : ["https://gms-rcm.vercel.app/"],
   },
   {
-    title: "Task Management App",
+    title: "SHEC",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "A website for a dubai based construction company showcasing their projects, way to contact and Portfolio.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link : ["https://shec-alpha.vercel.app/"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    title: "Blogging Platform",
+    title: "Robot ARM Manipulation",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "React.js", "Express", "mySQL"],
+      "A robotic arm able to move according to hand gestures.",
+    technologies: ["Arduino IDE", "Raspberry Pi", "Jupiter Notebook", "Python"],
   },
 ];
 
 export const CONTACT = {
-  address: "Bihar, India ",
-  phoneNo: "+91 9444444444 ",
-  email: "rajababu@example.com",
+  address: "Gaya, Bihar, India ",
+  phoneNo: "+91 9142650082 ",
+  email: "ayushgaya7454@gmail.com",
 };

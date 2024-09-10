@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../assets/about1.jpg";
+import about from "../assets/wp_dp.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 const Container1 = (delay) => ({
@@ -24,13 +24,13 @@ const About = () => {
       </motion.h1>
       <div className="flex flex-wrap">
         <motion.div
-          whileInView={{ opacity: 1, x: 100 }}
+          whileInView={{ opacity: 1, x: 10 }}
           initial={{ opacity: 0, x: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
           className=" w-full lg:w-1/2 lg:p-8 "
         >
-          <div className="flex items-center justify-center">
-            <img className="size-2/3 rounded-2xl" src={about} alt="About img" />
+          <div className=" items-center justify-center hidden md:flex">
+            <img className=" size-1/3 rounded-2xl" src={about} alt="About img" />
           </div>
         </motion.div>
         <motion.div

@@ -25,7 +25,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
             >
-              Raja Babu
+              Ayush Kumar Sinha
             </motion.h1>
             <motion.span
               variants={Container(0.6)}
@@ -33,7 +33,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              Front End Developer
             </motion.span>
             <motion.p
               variants={Container(1.2)}

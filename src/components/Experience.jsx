@@ -24,15 +24,15 @@ const Experience = () => {
             className="mb-8 flex flex-col lg:flex-row lg:justify-center"
           >
             <motion.div
-              whileInView={{ opacity: 1, x: 100 }}
+              whileInView={{ opacity: 1, x: 100, z:5 }}
               initial={{ opacity: 0, x: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
               className="w-full lg:w-1/4"
             >
-              <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+              <p className="mb-2 text-sm text-neutral-400">{experience.Duration}</p>
             </motion.div>
             <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0, z:10 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.8, delay: 0.5 }}
               className="w-full max-w-xl lg:w-3/4"
@@ -44,11 +44,17 @@ const Experience = () => {
                 </span>
               </h6>
               <p className="mb-4 text-neutral-400">{experience.description}</p>
-              <div className="flex flex-wrap">
+              <button className="mb-4 text-neutral-350 text-gray-50 hover:text-gray-500 ">
+              <a href={experience.link}>
+                View Certificate
+                </a>
+              </button>
+              
+              <div className="flex flex-wrap ">
                 {experience.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-white"
+                    className="mr-2 mt-2 rounded bg-neutral-700 px-2 py-2  text-sm font-medium text-white"
                   >
                     {tech}
                   </span>
